@@ -1,0 +1,96 @@
+
+.facebook-style-btn
+{
+  border-radius: 15px;
+  padding:6px 12px;   /* top right  bottom left*/
+
+}
+
+
+.facebook-style-dark
+{
+ font-size:15px;
+ box-shadow: inset 0 1px 0 0 #4267b2;;
+ background: #4267b2;
+ border: solid 1px #4267b2;
+ color: white;
+ text-shadow: 0 1px 0 #3359a5;
+}
+.facebook-style-dark:hover
+{
+  background:#2E4272;
+}
+.facebook-style-dark:active
+{
+  background:grey;
+}
+.facebook-style-light
+{
+  font-size:15px;
+  background: white;
+  border: solid 2px red;
+  color: grey;
+}
+
+.facebook-style-light:hover
+{
+  background:white;
+}
+.facebook-style-light:active
+{
+  background:grey;
+}
+
+/*new project */
+body,html
+    {
+      width:100%;
+      height: 100%;
+      font-family: 'Noto Sans JP', sans-serif;
+      background: url(apple.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+h1
+{
+color:white;
+font-size:3rem;
+}
+.buffer{height:150px;}
+hr
+{
+  border: 3px dotted #f05f44;
+
+max-width: 65px;
+}
+.btn
+{
+font-weight:700px;
+border-radius:300px;
+text-transform:uppercase;
+
+}
+.btn-primary {
+background-color:#f05f44;
+border-color:#f05f44;
+
+}
+.btn-primary:hover
+{
+  background-color:#CB5E4A;
+  border-color:#CB5E4A;
+  border-width: 4px;
+
+}
+.first-btn
+{
+padding:1rem 2rem;
+}
+.btn-primary:active
+{
+  color:red;
+  background-color:#CB5E4A;
+  border-color:#CB5E4A;
+}
